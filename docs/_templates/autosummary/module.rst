@@ -1,6 +1,7 @@
 {{ fullname | escape | underline}}
 
 .. automodule:: {{ fullname }}
+   :noindex:
 
    {% block classes %}
    {% if classes %}

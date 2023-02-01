@@ -33,6 +33,11 @@ intersphinx_mapping = {
         'sphinx': ('https://www.sphinx-doc.org/', None),
 }
 autodoc_default_options = {
+        'members': True,
+        'special-members': True,
+        'private-members': True,
+        'inherited-members': True,
+        'undoc-members': True,
         'exclude-members': '__weakref__,__dict__,__module__',
 }
 autosummary_generate = True
